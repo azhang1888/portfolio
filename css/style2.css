@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*please do not read or review my code. it works, and that's what matters.*/
+
+html {
+	background-color: #fff8dc;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*navbar double duty*/
+
+.nav2 {
+	overflow: hidden;
+	display: inline;
+	float: left;
+	background-color: #52712b;
+    width: 1350px;
+    height: 80px;
+    position:fixed;
+}
+
+#navitem2, #navitem3 {
+	list-style-type: none;
+	float: right;
+	color: #fff8dc; 
+	font-size: 25px;
+	display: flex; 
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 25px;
+}
+
+#navitem2 {
+	padding-right: 120px;
+}
+
+#navitem3{
+	padding-right: 50px;
+}
+
+#navitem2:link, #navitem3:link {
+	color: #fff8dc; 
+    text-decoration: none;
+}
+
+#navitem2:hover, #navitem3:hover {
+	text-decoration: underline;
+}
+
+#navitem2:visited, #navitem2:active, #navitem3:visited, #navitem3:active {
+    color: #f1d930;
+}
+
+#logo {
+	list-style-type: none;
+	margin: 0;
+   	display: inline;
+   	float: left;
+}
+
+/*works body*/
+
+#gtitle {
+	font-size:30px;
+	padding-top: 100px;
+	padding-left: 15px;
+	color:#52712b;
+}
+
+#goals, #respon {
+	font-size:25px;
+	padding-top: 25px;
+	padding-left: 15px;
+	color:#52712b;
+}
+
+#sum {
+	font-size: 15px;
+	color:#1e151b;
+	padding-left: 20px;
+}
+
+#posdt {
+	font-size: 20px;
+	color:#1e151b;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+#list #list2 {
+	font-size: 15px;
+	color:#1e151b;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#list2{
+	padding-bottom: 25px;
+}
+
+#sum {
+	padding-top: 20px;
+}
+
+#back {
+	padding-left: 235px;
+	padding-bottom: 20px;
+}
+
+#tool-container {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding:25px;
+	background-color: #9abd57;
+}
+
+#tooltitle {
+	color: #52712b;
+	font-size: 20px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #9abd57;
+    width: 1350px;
+    height: 80px;
+    left:0px;
+    bottom:0px;
+}
+
+#contactinfo, #contactinfo2 {
+	color: #fff8dc;
+    padding-left: 30px;
+	list-style-type: none;
+	display: inline;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	padding-top: 25px;
+}
+
+#contactinfo {
+	padding-right: 120px;
+}
+
+#contactinfo2 {
+	padding-left: 25px;
+}
+
+#contactinfo:link, #contactinfo2:link {
+    text-decoration: none;
+	color: #fff8dc; 
+}
+
+#contactinfo:hover, #contactinfo2:hover {
+	text-decoration: underline;
+}
+
+#contactinfo:visited, #contactinfo:active, #contactinfo2:visited, #contactinfo2:active {
+    color: #f1d930;
+}
+
+#logofoot {
+	float: left;
+}
