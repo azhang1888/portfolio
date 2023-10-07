@@ -109,6 +109,20 @@ body {
 	padding-top: 20px;
 }
 
+#sumlink {
+	padding-left: 20px;
+	color: #52712b; 
+}
+
+#sumlink:link {
+	color: #52712b; 
+    text-decoration: none;
+}
+
+#sumlink:hover {
+	text-decoration: underline;
+}
+
 #back {
 	padding-left: 235px;
 	padding-bottom: 20px;
@@ -117,7 +131,7 @@ body {
 #tool-container {
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom: 25px;
 	padding:25px;
 	background-color: #9abd57;

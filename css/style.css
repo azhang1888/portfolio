@@ -267,20 +267,50 @@ body {
 	padding-left: 560px;
 }
 
-#bodytext{
+#bodytext {
 	color: #1e151b;
-	font-size: 15px;
-	padding-left: 350px;
+	font-size: 16px;
+	padding-left: 325px;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
 
-#o1body, #o2body, #o3body, #o4body {
+#o4body {
 	color: #1e151b;
-	font-size: 15px;
-	padding-left: 380px;
-	padding-top: 15px;
-	padding-bottom: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+#gmresume {
+	color: #52712b;
+}
+
+#gmresume:link {
+	color: #52712b; 
+    text-decoration: none;
+}
+
+#gmresume:hover {
+	text-decoration: underline;
+}
+
+#gmresume:visited, #gmresume:active {
+    color: #52712b;
+}
+
+
+#o1body, #o2body, #o3body {
+	color: #1e151b;
+	font-size: 16px;
+	line-height: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .button {
@@ -332,20 +362,6 @@ body {
 	justify-content: flex-start;
 }
 
-/*
-#project-unit1 {
-	margin-top: 10px;
-	padding-right: 120px;
-	display: flex;
-	flex-direction: column;
-}
-*/
-
-
-#gamephoto1{
-	padding-left: 30px;
-}
-
 #descrip {
 	margin-left: 50px;
 	margin-right: 50px;
@@ -359,7 +375,31 @@ body {
 
 #img-container {
 	margin: 60px;
-	background-color: #9abd57;
+}
+
+.gamephoto {
+	height: 175px;
+	width: 250px;
+}
+
+.gamephoto1 {
+	height: 150px;
+	width: 150px;
+}
+
+.gamephoto2 {
+	height: 275px;
+	width: 275px;
+}
+
+.gamephoto3{
+	height: 175px;
+	width: 275px;
+}
+
+.gamephoto4{
+	height: 175px;
+	width: 275px;
 }
 
 #abc{
