@@ -119,11 +119,15 @@ body {
 /*works body*/
 
 #sectiontitle {
+	padding-left: 400px;
+}
+
+#sectiontitle2 {
 	padding-left: 525px;
 }
 
 #sectiontitle1 {
-	padding-left: 390px;
+	padding-left: 520px;
 }
 
 #projectt {
