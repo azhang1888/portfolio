@@ -70,7 +70,7 @@ body {
 	margin: 0px;
 }
 
-#navitem2, #navitem3 {
+#navitem2, #navitem3, #navitem4 {
 	list-style-type: none;
 	float: right;
 	color: #fff8dc; 
@@ -90,16 +90,20 @@ body {
 	padding-right: 50px;
 }
 
-#navitem2:link, #navitem3:link {
+#navitem4 {
+	padding-right: 50px;
+}
+
+#navitem2:link, #navitem3:link, #navitem4:link {
 	color: #fff8dc; 
     text-decoration: none;
 }
 
-#navitem2:hover, #navitem3:hover {
+#navitem2:hover, #navitem3:hover, #navitem4:hover {
 	text-decoration: underline;
 }
 
-#navitem2:visited, #navitem2:active, #navitem3:visited, #navitem3:active {
+#navitem2:visited, #navitem2:active, #navitem3:visited, #navitem3:active, #navitem4:visited, #navitem4:active {
     color: #f1d930;
 }
 
