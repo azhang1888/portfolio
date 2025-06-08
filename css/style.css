@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-/*please do not read or review my code. it works, and that's what matters.*/
+
+/*please do not read my code. it works, and that's what matters.*/
 
 html {
-	background-color: #fff8dc;
+	background-color: #ffffff;
 }
 
 body {
@@ -17,9 +18,9 @@ body {
 	overflow: hidden;
 	display: inline;
 	float: left;
-	background-color: #52712b;
-    width: 1350px;
-    height: 80px;
+	background-color: #707070;
+    width: 100%;
+    height: auto;
     position:fixed;
 	margin: 0px;
 }
@@ -27,18 +28,18 @@ body {
 #navitem {
 	list-style-type: none;
 	float: right;
-	color: #fff8dc; 
+	color: #ffffff; 
 	font-size: 25px;
 	display: flex; 
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
 	padding-top: 25px;
-	padding-right: 120px;
+	padding-right: 95px;
 }
 
 #navitem:link {
-	color: #fff8dc; 
+	color: #ffffff; 
     text-decoration: none;
 }
 
@@ -47,17 +48,39 @@ body {
 }
 
 #navitem:visited, #navitem:active {
-    color: #f1d930;
+    color: #707070;
 }
 
 #logo {
+	height: auto;
+	width: 24%;
 	list-style-type: none;
 	margin: 0;
    	display: inline;
    	float: left;
+	padding-left: 10px;
 }
 
-/*navbar double duty*/
+/*giant head*/
+
+#head {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 47%;
+	height: auto;
+	padding-top: 50px;
+}
+
+.thoughts {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 100px;
+}
+
+/*navbar double duty
 
 .nav2 {
 	overflow: hidden;
@@ -114,7 +137,7 @@ body {
    	float: left;
 }
 
-/*headerimage*/
+/*headerimage
 
 #headerim {
 	padding-top: 20px;
@@ -135,11 +158,11 @@ body {
 }
 
 #projectt {
-	color: #52712b;
+	color: #707070;
 }
 
 #workdes {
-	color: #1e151b;
+	color: #707070;
 }
 
 #descrip { 
@@ -147,10 +170,29 @@ body {
 }
 
 #workdes {
-    color: #1e151b;
+    color: #707070;
 }
 
-/*about; dress up*/
+#headerim  {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+
+}
+
+#projectunit {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+
+/*about; dress up
 #pop {
     background-color: #f4f1ec;
     height: 100%;
@@ -215,12 +257,13 @@ body {
 
 .outfit {
 	/*z-index: 10;*/
-	position: absolute;
+	/*position: absolute;
 	height: 300px;
 	top: 5px;
 	left: 110px;
-}
+}*/
 
+/*
 .hidden {
 	display: none;
 }
@@ -270,7 +313,7 @@ body {
 }
 
 #o4text {
-	color: #52712b;
+	color: #707070;
 	font-size: 30px;
 	padding-left: 560px;
 }
@@ -345,7 +388,9 @@ body {
 
 }
 
-/*index body*/
+*/
+
+/*index body
 
 #abme1, #ABC {
 	display:flex;
@@ -426,6 +471,7 @@ body {
 	flex-direction: row;
 	align-items: flex-start;
 }
+*/
 
 /*
 #title1 {
@@ -439,46 +485,47 @@ body {
 }
 
 #comingsoon {
-	color: #9abd57;
+	color: #707070;
 }
 
 #readmore {
-	color: #9abd57;
+	color: #707070;
 	text-decoration: none;
 }
 
 #readmore:link {
     text-decoration: none;
-	color: #9abd57;
+	color: #707070;
 }
 
 #readmore:visited {
-	color: #52712b;
+	color: #707070;
 	text-decoration: none;
 }
 
 #readmore:hover {
-	color: #52712b;
+	color: #707070;
 	text-decoration: underline;
 }
 
 #readmore:active {
-    color: #52712b;
+    color: #707070;
 	text-decoration: none;
 }
 
 /*footer*/
 
 .footer {
-    background-color: #9abd57;
-    width: 1350px;
-    height: 80px;
-    left:0px;
-    bottom:0px;
+    background-color: #707070;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
 
-#contactinfo, #contactinfo2 {
-	color: #fff8dc;
+#contactinfo {
+	color: #ffffff;
     padding-left: 20px;
 	list-style-type: none;
 	display: inline;
@@ -492,23 +539,22 @@ body {
 	padding-right: 120px;
 }
 
-#contactinfo2 {
-	padding-left: 25px;
-}
-
-#contactinfo:link, #contactinfo2:link {
+#contactinfo:link {
     text-decoration: none;
 	color: #fff8dc; 
 }
 
-#contactinfo:hover, #contactinfo2:hover {
+#contactinfo:hover {
 	text-decoration: underline;
 }
 
-#contactinfo:visited, #contactinfo:active, #contactinfo2:visited, #contactinfo2:active {
+#contactinfo:visited, #contactinfo:active {
     color: #f1d930;
 }
 
 #logofoot {
 	float: left;
+	width: 20%; 
+	height: auto;
+	padding-left: 10px;
 }
